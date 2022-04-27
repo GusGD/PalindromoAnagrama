@@ -19,8 +19,8 @@ for (int x = i - 1; x >= 0; x--)
     fraseInverso = fraseInverso + frase;
 }
 
-fraseA = String.Concat(novaFrasePalindromo.OrderBy(x => x));
-fraseNA = String.Concat(fraseInverso.OrderBy(x => x));
+fraseA = String.Concat(novaFrasePalindromo.OrderBy(a => a));
+fraseNA = String.Concat(fraseInverso.OrderBy(a => a));
 
 //utilizei tabela da verdade para definir true ou false
 
