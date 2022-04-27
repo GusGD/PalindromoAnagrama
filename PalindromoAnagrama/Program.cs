@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-string frasePalindromo, fraseInverso, frase, novaFrasePalindromo, fraseA, fraseNA;
+string frasePalindromo, fraseInverso, frase, novaFrasePalindromo;
 int i;
 
 fraseInverso = "";
@@ -19,16 +19,7 @@ for (int x = i - 1; x >= 0; x--)
     fraseInverso = fraseInverso + frase;
 }
 
-
-fraseA = novaFrasePalindromo;
-fraseNA = fraseInverso;
-
-
-
-
-
 //utilizei tabela da verdade para definir true ou false
-
 if (novaFrasePalindromo == fraseInverso && Anagrama())
 {
     Console.WriteLine(true + " " + frasePalindromo + " é um palíndromo e um anagrama");
@@ -47,7 +38,7 @@ else
 
 bool Anagrama()
 {
-    if (Alpha(fraseA) == Alpha(fraseNA))
+    if (Alpha(novaFrasePalindromo) == Alpha(fraseInverso))
     {
         return true;
     }
@@ -62,6 +53,5 @@ static string Alpha(string str)
     Array.Sort(arr);
     return new string(arr);
 }
-
 
 Console.ReadKey();
