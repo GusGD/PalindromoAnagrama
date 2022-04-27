@@ -19,19 +19,24 @@ for (int x = i - 1; x >= 0; x--)
     fraseInverso = fraseInverso + frase;
 }
 
-fraseA = String.Concat(novaFrasePalindromo);
-fraseNA = String.Concat(fraseInverso);
+
+fraseA = novaFrasePalindromo;
+fraseNA = fraseInverso;
+
+
+
+
 
 //utilizei tabela da verdade para definir true ou false
 
-if (novaFrasePalindromo == fraseInverso && fraseA == fraseNA)
+if (novaFrasePalindromo == fraseInverso && Anagrama())
 {
     Console.WriteLine(true + " " + frasePalindromo + " é um palíndromo e um anagrama");
-}else if (novaFrasePalindromo == fraseInverso && fraseA != fraseNA)
+}else if (novaFrasePalindromo == fraseInverso && Anagrama())
 {
     Console.WriteLine(false + " " + frasePalindromo + " é um palíndromo mas não é um anagrama");
 }
-else if (novaFrasePalindromo != fraseInverso && fraseA == fraseNA)
+else if (novaFrasePalindromo != fraseInverso && Anagrama())
 {
     Console.WriteLine(false + " " + frasePalindromo + " não é um palíndromo mas é um anagrama");
 }
@@ -39,4 +44,24 @@ else
 {
     Console.WriteLine(false + " " + frasePalindromo + " não é um palíndromo e nem um anagrama");
 }
+
+bool Anagrama()
+{
+    if (Alpha(fraseA) == Alpha(fraseNA))
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+static string Alpha(string str)
+{
+    char[] arr = str.ToCharArray();
+    Array.Sort(arr);
+    return new string(arr);
+}
+
+
 Console.ReadKey();
