@@ -1,0 +1,15 @@
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\bin\Debug\net6.0\PalindromoAnagrama.exe
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\bin\Debug\net6.0\PalindromoAnagrama.deps.json
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\bin\Debug\net6.0\PalindromoAnagrama.runtimeconfig.json
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\bin\Debug\net6.0\PalindromoAnagrama.dll
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\bin\Debug\net6.0\PalindromoAnagrama.pdb
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\PalindromoAnagrama.csproj.AssemblyReference.cache
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\PalindromoAnagrama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\PalindromoAnagrama.AssemblyInfoInputs.cache
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\PalindromoAnagrama.AssemblyInfo.cs
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\PalindromoAnagrama.csproj.CoreCompileInputs.cache
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\PalindromoAnagrama.dll
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\refint\PalindromoAnagrama.dll
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\PalindromoAnagrama.pdb
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\PalindromoAnagrama.genruntimeconfig.cache
+C:\Users\si_gu\Desktop\PalindromoAnagrama\PalindromoAnagrama\obj\Debug\net6.0\ref\PalindromoAnagrama.dll
